@@ -140,6 +140,16 @@ cd Mock_case/src
 cp .env.example .env
 ```
 
+生成された `src/.env` ファイルを開き、データベース接続情報を以下の設定に更新してください。
+```env
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel_db
+DB_USERNAME=laravel_user
+DB_PASSWORD=laravel_pass
+```
+
 APP_KEY を生成します。
 
 ```bash
