@@ -129,10 +129,11 @@ erDiagram
 
 ```bash
 git clone https://github.com/junya-enomoto/Mock_case.git
-cd Mock_case
+cd Mock_case/src
 ```
 
 2.'.env' ファイルの作成
+
 .env.example をコピーして .env ファイルを作成し、環境変数を設定します。
 
 ```bash
